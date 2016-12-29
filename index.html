@@ -184,7 +184,7 @@ Event in Taiwan!
 -->
 <tr style="background-color: rgb(221, 221, 221);" valign="top">
 <td>9.00 - 10.00<br> </td>
-<td><i>Talk 1: <strong>Luca Trevisan</strong>, TBA</i><br>
+<td><i>Talk 1: <strong>Luca Trevisan</strong>, Know your place: Simple distributed graph-partitioning algorithms</i><br>
 <i></i></td>
 </tr>
 
@@ -258,8 +258,23 @@ Event in Taiwan!
 							<header>
 								<h2> Luca Trevisan </h2>
 							</header>
-							<p> Title: TBA<hr>
-                            Abstract: TBA
+							<p> Title: Know Your Place: Simple Distributed Graph-Partitioning Algorithms<hr>
+                            Abstract: We study network distributed processes of the following type: each
+node, independently, picks an initial state according to a certain distribution,
+then nodes repeatedly exchange information about their states with some
+or all of their neighbors. At each iteration, each node, based on its state,
+assigns itself to a cluster. 
+<br> <br>
+We show that a synchronous discrete-time algorithm of this sort 
+(in which, at each time step, all nodes communicate
+their state to all neighbors) converges to the partition found by a centralized
+spectral partitioning algorithms, and we discuss preliminary results
+concerning an asynchronous continuous-time version of the algorithm
+(in which, at Poisson intervals, two adjacent nodes along a random 
+edge exchange information about their states).
+<br> <br>
+(Joint work with Luca Becchetti, Andrea Clementi, Francesco Pasquale,
+Prasad Raghavendra, and Emanuele Natale)
                             </p>                                          
                             
 						</div>
