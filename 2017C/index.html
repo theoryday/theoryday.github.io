@@ -186,7 +186,7 @@ Event in Taiwan!
 <!--行程表時間-->
 <tr style="background-color: rgb(221, 221, 221);" valign="top">
 <td>9.30 - 10.30<br> </td>
-<td><i>Talk 1: <strong>Danny Chen</strong>, Know your place: Simple distributed graph-partitioning algorithms</i><br>
+<td><i>Talk 1: <strong>Danny Chen</strong>, Geometric Algorithms for Biomedical Problems </i><br>
 <i></i></td>
 </tr>
 
@@ -211,7 +211,7 @@ Event in Taiwan!
 
 <tr style="background-color: rgb(221, 221, 221);" valign="top">
 <td>2.00 - 3.00<br> </td>
-<td> <i>Talk 3: <strong>Vassilis Zikas </strong>, Fair and robust multi-party computation using a global transaction ledger</i><br>
+<td> <i>Talk 3: <strong> Yi-Jun Chang </strong>, Complexity of Local Distributed Graph Problems </i><br>
 <i></i></td>
 </tr>
 
@@ -224,7 +224,7 @@ Event in Taiwan!
 
 <tr style="background-color: rgb(221, 221, 221);" valign="top">
 <td>3.30 - 4.30<br> </td>
-<td> <i>Talk 4: <strong>Nai-Hui Chia</strong>, Quantum worst-case to average-case reductions for QMA-complete problems</i><br>
+<td> <i>Talk 4: <strong>Meng-Tsung Tsai </strong>, Quantum worst-case to average-case reductions for QMA-complete problems</i><br>
 <i></i></td>
 </tr>
 
@@ -259,29 +259,27 @@ Event in Taiwan!
                 <article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/Danny.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/Danny.jpg" width="80" height="350" alt="" /></span>
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
 								<h2> Danny Chen </h2>
 							</header>
-							<p> Title: Know Your Place: Simple Distributed Graph-Partitioning Algorithms<hr>
-                            Abstract: We study network distributed processes of the following type: each
-node, independently, picks an initial state according to a certain distribution,
-then nodes repeatedly exchange information about their states with some
-or all of their neighbors. At each iteration, each node, based on its state,
-assigns itself to a cluster. 
+							<p> Title: Geometric Algorithms for Biomedical Problems<hr>
+                            Abstract: Computer technology plays a crucial role in modern medicine, health care, and life sciences, especially in medical imaging, human genome study, clinical diagnosis and prognosis, treatment planning and optimization, treatment response evaluation and monitoring, and medical data management and analysis.  
+							As computer technology rapidly evolves, computer science solutions will inevitably become an integral part of modern medicine and health care.  
+							Computational research and applications on modeling, formulating, solving, and analyzing core problems in medicine and health care are not only critical, 
+							but are actually indispensable!
 <br> <br>
-We show that a synchronous discrete-time algorithm of this sort 
-(in which, at each time step, all nodes communicate
-their state to all neighbors) converges to the partition found by a centralized
-spectral partitioning algorithms, and we discuss preliminary results
-concerning an asynchronous continuous-time version of the algorithm
-(in which, at Poisson intervals, two adjacent nodes along a random 
-edge exchange information about their states).
+Recently emerging deep learning (DL) techniques have achieved remarkably high quality results for many computer vision tasks, such as image classification, object detection, and semantic segmentation, largely outperforming traditional image processing methods. 
+In this talk, we present new approaches based on DL techniques for solving a set of medical imaging problems, such as segmentation and analysis of glial cells, 
+analysis of the relations between glial cells and brain tumors, segmentation of neuron cells, and new training strategies for deep learning using sparse medical image data. We develop new deep learning models, based on fully convolutional networks (FCN), recurrent neural networks (RNN), and active learning, to effectively tackle the target medical imaging problems. 
+For example, we combine FCN and RNN for 3D biomedical image segmentation; we propose a new complete bipartite network model for neuron cell segmentation. Further, we show that simply applying DL techniques alone is often insufficient to solve medical imaging problems. 
+Hence, we construct new methods to complement and work with DL techniques. For example, we devise a new cell cutting method based on k-terminal cut in geometric graphs, which complements the voxel-level segmentation of FCN to produce object-level segmentation of 3D glial cells. We show how to combine a set of FCNs with an approximation algorithm for the maximum k-set cover problem to form a new training strategy that takes significantly less annotation data. A key point we make is that DL is often used as one main step in our approaches, which is complemented by other main steps. 
+We also show experimental data and results to illustrate the practical applications of our new DL approaches.
 <br> <br>
-(Joint work with Luca Becchetti, Andrea Clementi, Francesco Pasquale,
-Prasad Raghavendra, and Emanuele Natale)
+<!--(Joint work with Luca Becchetti, Andrea Clementi, Francesco Pasquale,
+Prasad Raghavendra, and Emanuele Natale)-->
                             </p>                                          
                             
 						</div>
@@ -292,7 +290,7 @@ Prasad Raghavendra, and Emanuele Natale)
                                 <article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/Hsien-Chih.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/Hsien-Chih.jpg" width="80" height="400" alt="" /></span>
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
@@ -319,14 +317,14 @@ Interestingly, by suitably changing the parameterization​ of either of these p
 							<header>
 								<h2> Yi-Jun Chang </h2>
 							</header>
-							<p> Title: Fair and Robust Multi-Party Computation using a Global Transaction Ledger
+							<p> Title: Complexity of Local Distributed Graph Problems
 
                             <hr>
-                            Abstract: Classical results on secure multi-party computation (MPC) imply that fully secure computation, including fairness (either all parties get output or none) and robustness (output delivery is guaranteed), is impossible unless a majority of the parties is honest. Recently, cryptocurrencies like Bitcoin where utilized to leverage the fairness loss in MPC against a dishonest majority. The idea is that when the protocol aborts in an unfair manner (i.e., after the adversary receives output) then honest parties get compensated (in coins) by the adversarially controlled parties.
+                            Abstract: Locality is a central concept in distributed computing. Roughly speaking, a local algorithm is a distributed algorithm on a network where the output of each device v only depends on its local neighbors (i.e., within a small radius of v). In this talk. I will present my works (arXiv:1704.06297 and arXiv:1602.08166) regarding the following fundamental questions about the nature of the distributed LOCAL model: (i) How to classify the distributed problems according to their complexities? (ii) How much does randomness help? (iii) Can we solve more problems given more time? (iv) Are there any natural “complete problems” in some complexity class? (v) Is there a “time hierarchy theorem” in the LOCAL model? 
 <br> <br>
-We describe the first robust MPC protocol with compensation, i.e., an MPC protocol where not only fairness is guaranteed (via compensation) but additionally the protocol is guaranteed to deliver output to the parties that get engaged. This means that the adversary, after an initial round of deposits, is not even able to mount a denial-of-service attack without having to suffer a monetary penalty. Our robust MPC protocol requires only a constant number of (coin-transfer and communication) rounds. To prove the security of our construction, we put forth a new formal model of secure MPC with compensation and show how the introduction of suitable ledger and synchronization functionalities makes it possible to describe such protocols using standard interactive Turing machines (ITM)  circumventing the need for the use of extra features that are outside the standard model as in previous works. Our model is expressed in the universal composition setting with global setup and is equipped with a composition theorem that enables the design of protocols, which compose safely with each other and within larger environments alongside other protocols with compensation; such a composition theorem for MPC protocols with compensation was not known before.
+
 <br> <br>
-This is joint work with Aggelos Kiayias and Hong-Sheng Zhou.
+<!--This is joint work with Aggelos Kiayias and Hong-Sheng Zhou.-->
 
                             </p>                                          
                             
