@@ -264,10 +264,11 @@ Event in Taiwan!!
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h2> Kai-Min Chung</h2>
+								<h2> Elaine Shi</h2>
 							</header>
-							<p> Title: On the Impossibility of Cryptography with Tamperable Randomness<hr>
-                            Abstract: TBA
+							<p> Title: Synchronous, with a Chance of Partition Tolerance<hr>
+                            Abstract: Thunder is a practical instantiation of the Thunderella paradigm, enabling high-performance consensus in a decentralized, permissionless environment, and is currently being implemented by ThunderCore. I will describe the latest improvements to the Thunder protocol. Using Thunder as an example, I will explain why classical modeling techniques adopted by 30 years of distributed consensus literature are insufficient for capturing the robustness properties we care about in practical systems. I will then describe our work in which we rethink the underlying models for studying the security of consensus protocols.
+
                             </p>                                          
                             
 						</div>
@@ -282,10 +283,10 @@ Event in Taiwan!!
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h2>  Yu-Chi Chen </h2>
+								<h2> Hoeteck Wee </h2>
 							</header>
-							<p> Title: Public key encryption with filtered equality test<hr>
-                            Abstract:<br>The original notion of public key encryption with equality test (PKEET) cannot achieve standard chosen plaintext attack (CPA) security, since the add-on service in PKEET provides a capability of verifying the equivalence between the underlying plaintexts of two encrypted data without decryption. In this talk, we will give a comprehensive introduction to PKEET. To achieve CPA-security and restrict the equality test power, we introduce the new notion, public key encryption with filtered equality test, and show the construction from bilinear maps. Finally, we present some on-going and future works for filtered equality test. <br>(Joint work with Kaibin Huang and Raylin Tso)
+							<p> Title: Attribute-Based Encryption and Information-Theoretic Crypto<hr>
+                            Abstract:<br>Can we encrypt data while enabling fine-grained access control, as is necessary to protect big, complex data? In this talk, we will survey how addressing this question led to new lower and upper bounds in information-theoretic cryptography and secret sharing, which in turn came from building new connections to communication complexity and private information-retrieval.
                             </p>                                          
                             
 						</div>
@@ -302,32 +303,15 @@ Event in Taiwan!!
 							<header>
 								<h2> Luca Trevisan</h2>
 							</header>
-							<p> Title: Some simple distributed network processes
+							<p> Title: Graph sparsifiers
 
                             <hr>
                             Abstract: <br>		
-				We will describe network processes in which, at each step, each node
-				communicates with its neighbors, or a random subset of neighbors, and
-				updates its state according to the outcome of these communications.
+				A weighted graph H is a sparsifier of a graph G if H has much fewer edges than G and, in an appropriate technical sense, "approximates" G. Sparsifiers are useful as compressed representations of graphs and to speed up certain graph algorithms. In a "cut sparsifier," the notion of approximation is that every cut is crossed by approximately the same number of edges in G as in H. In a "spectral sparsifier" a stronger, linear-algebraic, notion of approximation holds. 
 
-				We will first talk about processes in which each node  updates its
-				state to be "more like" the state of the neighbors. In a complete
-				communication network, such protocols provide a solution to the problem
-				of reaching a consensus, and they do so in a way that is robust to
-				adversarial interventions. In a communication network with a clustered
-				structure, such protocols give a decentralized solution to the community
-				detection problem.
-
-				We will then discuss a protocol in which each node wants to choose a constant
-				number of neighbors in such a way that the resulting constant-degree subnet
-				of the communication network is an expander. This is done in a way to similar
-				to how virtual networks are formed in peer-to-peer protocols. We show that if
-				the original communication network is a dense expanders, the protocol will
-				construct a constant-degree expander.
+                                We discuss a new lower bound on the number of edges that any spectral sparsifier must have, and we interpret our result as a generalization of the Alon-Boppana theorem to graphs that are irregular and weighted. We also show that any compressed representation of a graph that allows to answer queries of the form "how many edges cross this cut?" with a multiplicative error 1+epsilon must use Omega(epsilon^{-2} n log n) bits, showing that known constructions of spectral sparsifiers provide a space-optimal solution to this problem.
 				<br>
-				(Based on joint work with Luca Becchetti, Andrea Clementi, Pasin
-				Manurangsi, Emanuele Natale, Francesco Pasquale and Prasad
-				Raghavendra.)
+				(Based on joint work with Charles Carlson, Alexandra Kolla and Nikhil Srivastava.)
 <!--This is joint work with Aggelos Kiayias and Hong-Sheng Zhou.-->
 
                             </p>                                          
