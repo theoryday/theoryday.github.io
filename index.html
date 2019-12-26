@@ -265,14 +265,43 @@ Event in Taiwan!!
                                 <article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/Paul Horn.png" alt="" /></span>
+							<span class="image fit"><img src="images/Kazuo Iwama.jpg" alt="" /></span>
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h2> Paul Horn (University of Denver, USA)</h2>
+								<h2> Kazuo Iwama (RIMS, Kyoto University)</h2>
 							</header>
-							<p> Title: Gradient and Harnack type Inequalities for PageRank<hr>
-                            Abstract:<br>PageRank, as introduced by Brin and Page, and more generally 'personalized PageRank,' has been of fundamental importance in network search. A key parameter in PageRank is the 'jumping constant' which allows (among other things) one to tailor the sensitivity of PageRank to local cuts. In this talk, we describe new gradient estimates (akin to the Li-Yau inequality for solutions to the heat equation) and Harnack type inequalities for graphs satisfying certain curvature conditions. These allow us to compare the 'importance' of different nodes, and how PageRank regularizes as the jumping constant goes to zero.
+							<p> Title: Narrowing small complexity gaps<hr>
+                            Abstract:<br>Suppose that we have an algorithm which runs in time O(n). This
+							algorithm is optimal in the usual sense and there is little room
+							for further improvements.  Nevertheless one may be interested in
+							the constant factor that is hidden by the big-O notation, but
+							that would cause nasty issues about machine models.  On the other
+							hand, there are several other complexity measures that are more
+							accurate and cleaner than the number of computation steps.  One
+							of them is the number of comparisons for evaluating sorting
+							algorithms.  In many textbooks, it is just written that fast
+							algorithms need O(nlogn) comparisons (log means the logarithm of
+							base 2 here), which is optimal. It turns out, however, that its
+							information theoretic lower bound is log(n!), which is
+							approximately equal to nlogn - 1.4426n + O(logn).  For instance,
+							it is easy to prove that the simple binary insertion sort needs
+							at most nlogn comparisons, but it is much harder to specifically
+							bound the linear term or to bound its constant factor.  The
+							previous best upper bound for that constant factor is -1.32 due to
+							Ford and Johnson that was published in 1959!  Another example of
+							such measure is the number of oracle calls for reconstruction of
+							strings which is a model of sequence by hybridization. Again the
+							previous upper bound is n + 2logn and it is a long-standing open
+							question whether the logn term can be removed. 
+							<br>
+							This talk is about our two recent results on improved upper
+							bounds for those two complexity measures.  Such a small
+							improvement may be useless in practice, but it needs a lot of new
+							algorithmic techniques that may be useful in other problems.
+							Even more importantly, those are nice examples to demonstrate the
+							power of randomization and/or the advantage of the average-case
+							complexity over the worst-case complexity.
                             </p>                                          
                             
 						</div>
@@ -283,19 +312,14 @@ Event in Taiwan!!
                                 <article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/Bar Alon.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/Hsiang-Hsuan Liu.jpg" alt="" /></span>
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h2> Bar Alon (Ariel University, Israel) </h2>
+								<h2> Hsiang-Hsuan Liu (Utrecht University) </h2>
 							</header>
-							<p> Title: On Perfectly Secure 2PC in the OT-Hybrid Model<hr>
-                            Abstract:<br> A well-known result by Kilian (ACM 1988) asserts that general secure two computation (2PC) with statistical security, can be based on OT. Specifically, in the client-server model, where only one party -- the client -- receives an output, Kilian’s result shows that given the ability to call an ideal oracle that computes OT, two parties can securely compute an arbitrary function of their inputs with unconditional security. Ishai et al. (EUROCRYPT 2011) further showed that this can be done efficiently for every two-party functionality in NC^1 in a single round.
-
-							However, their results only achieve statistical security, namely, it is allowed to have some error in security. This leaves open the natural question as to which client-server functionalities can be computed with perfect security in the OT-hybrid model, and what is the round complexity of such computation. So far, only a handful of functionalities were known to have such protocols. In addition to the obvious theoretical appeal of the question towards better understanding secure computation, perfect, as opposed to statistical reductions, may be useful for designing secure multiparty protocols with high concrete efficiency, achieved by eliminating the dependence on a security parameter.
-							
-							In this work, we identify a large class of client-server functionalities f: X &times; Y -> {0,1}, where the server's domain X is larger than the client's domain Y, that have a perfect reduction to OT. Furthermore, our reduction is 1-round using an oracle to secure evaluation of many parallel invocations of 1-out-of-2 bit-OT, as done by Ishai et al. (EUROCRYPT 2011). Interestingly, the set of functions that we are able to compute was previously identified by Asharov (TCC 2014) in the context of fairness in two-party computation, naming these functions full-dimensional. Our result also extends to randomized non-Boolean functions f: X &times; Y -> {0,...,k-1} satisfying |X|>(k-1)*|Y|.
-							
+							<p> Title: 待定<hr>
+                            Abstract:<br> 待定
                             </p>                                          
                             
 						</div>
@@ -306,17 +330,15 @@ Event in Taiwan!!
                                 <article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/Takashi Yamakawa.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/Han-Hsuan Lin.jpg" alt="" /></span>
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h2> Takashi Yamakawa (NTT, Japan) </h2>
+								<h2> Han-Hsuan Lin (UT Austin) </h2>
 							</header>
 							
-							<p> Title: Finding Collisions in a Quantum World: Quantum Black-Box Separation of Collision-Resistance and One-Wayness <hr>
-                            Abstract:<br>Since the celebrated work of Impagliazzo and Rudich (STOC 1989), a number of black-box impossibility results have been established. However, these works only ruled out classical black-box reductions among cryptographic primitives. Therefore it may be possible to overcome these impossibility results by using quantum reductions. To exclude such a possibility, we have to extend these impossibility results to the quantum setting.
-
-							In this paper, we initiate the study of black-box impossibility in the quantum setting. We first formalize a quantum counterpart of fully-black-box reduction following the formalization by Reingold, Trevisan and Vadhan (TCC 2004). Then we prove that there is no quantum fully-black-box reduction from collision-resistant hash function to one-way permutation (or even trapdoor permutation). This is an extension to the quantum setting of the work of Simon (Eurocrypt 1998) who showed a similar result in the classical setting.
+							<p> Title: 待定 <hr>
+                            Abstract:<br>待定
 							
                             </p>                                            
                          
@@ -324,7 +346,26 @@ Event in Taiwan!!
 				    </div>
 			    </article>
 				<hr>
-				
+								<!--4號講者-->
+								<article class="container" id="top">
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<span class="image fit"><img src="images/Brabeeba Wang.jpg" alt="" /></span>
+						</div>
+						<div class="8u 12u(mobile)">
+							<header>
+								    <h2> Brabeeba Wang (MIT)</h2>
+							</header>
+							<p> Title: 待定<hr>
+				            Abstract:<br>待定
+
+				            </p>                                          
+				                            
+						</div>
+					</div>
+				</article>
+				<hr>
+								
 
 
 
