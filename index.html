@@ -52,7 +52,7 @@
                             Talk slides: <a href="public_data/markb.pdf">talk 1</a>, <a href="public_data/georgiosp.pdf">talk 2</a>, <a href="public_data/xinh.pdf">talk 3</a>, <a href="public_data/yuichiy.pdf">talk 4</a>, 
                             -->
                             <hr>
-							 Past Theory Days in Taiwan: <a href="2016A/index.html"> 2016A@Taipei</a>, <a href="2016B/index.html"> 2016B@HsinChu</a>, <a href="2017A/index.html"> 2017A@Taipei</a>,<a href="2017B/index.html"> 2017B@HsinChu</a>, <a href="2017C/index.html"> 2017C@Taipei</a>, <a href="2018/index.html"> 2018@Taipei</a>, <a href="2018B/index.html"> 2018B@Taipei</a>, <a href="2019/index.html">2019@HsinChu</a>,<a href="https://theoryday.github.io/2022n2023/2020/index.html"> 2020@Taipei</a>,<a href="https://theoryday.github.io/2022n2023/2020W/index.html"> 2020Winter@Taipei</a>,<a href="https://theoryday.github.io/2022n2023/index.html"> 2022&2023@Hybrid</a>
+							 Past Theory Days in Taiwan: <a href="2016A/index.html"> 2016A@Taipei</a>, <a href="2016B/index.html"> 2016B@HsinChu</a>, <a href="2017A/index.html"> 2017A@Taipei</a>,<a href="2017B/index.html"> 2017B@HsinChu</a>, <a href="2017C/index.html"> 2017C@Taipei</a>, <a href="2018/index.html"> 2018@Taipei</a>, <a href="2018B/index.html"> 2018B@Taipei</a>, <a href="2019/index.html">2019@HsinChu</a>,<a href="https://theoryday.github.io/2020/index.html"> 2020@Taipei</a>,<a href="https://theoryday.github.io/2020W/index.html"> 2020Winter@Taipei</a>,<a href="https://theoryday.github.io/2022n2023/index.html"> 2022&2023@Hybrid</a>
                                                     <br><br>
                         The Theory Day in Taiwan is an experimental one-day event that aims to stimulate interaction
 and discussion for TCS researchers in Taiwan and nearby countries. We plan to
@@ -223,7 +223,7 @@ Event in Taiwan!!
             
 				<article id="abstract">
 					<header>
-						<h2>Talk Abstract.</h2>
+						<h2>Talk Information</h2>
 						<p> </p>
 					</header>
                     
@@ -242,17 +242,23 @@ Event in Taiwan!!
 							</header>
 							<p> Title: Reconstructing the Tree of Life (Fitting Distances by Tree Metrics)<hr>
                             Abstract:<br><br>We consider the numerical taxonomy problem of fitting an SxS distance matrix D with a tree metric T. For some k, we want to minimize the L_k norm of the errors, that is, 
-							<br><br>Pick T so as to minimize (sum_{i,j in S} |D(i,j)-T(i,j)|^k)^{1/k} 
+							<br>Pick T so as to minimize (sum_{i,j in S} |D(i,j)-T(i,j)|^k)^{1/k} 
 
-							<br><br>This problem was raised in biology in the 1960s for k=1,2. The biological interpretation is that T represents a possible evolution behind the species in S matching some measured distances in D. Sometimes, it is required that T is an ultrametric, meaning that all species are at the same distance from the root.  
+							<br>This problem was raised in biology in the 1960s for k=1,2. The biological interpretation is that T represents a possible evolution behind the species in S matching some measured distances in D. Sometimes, it is required that T is an ultrametric, meaning that all species are at the same distance from the root.  
 An Evolutionary tree induces a hierarchical classification of species and this is not just tied to biology. Medicine, ecology and linguistics are just some of the fields where this concept appears, and it is even an integral part of machine learning and data science. Fundamentally, if we can approximate distances with a tree, then they are much easier to reason about: many questions that are NP-hard for general metrics can be answered in linear time on tree metrics. In fact, humans have appreciated hierarchical classifications at least since Plato and Aristotle (350 BC).  
-We will review the basic results on the problem, including the most recent result from FOCS'21 https://arxiv.org/abs/2110.02807. They paint a varied landscape with big differences between different moments, and with some very nice open problems remaining.  
-At STOC'93, Farach, Kannan, and Warnow proved that under L_infty, we can find the optimal ultrametric. Almost all other variants of the problem are APX-hard.  
-At SODA'96, Agarwala, Bafna, Farach, Paterson, and Thorup showed that for any norm L_k, k>=1, if the best ultrametric can be A-approximated, then the best tree metric can be 3A-approximated. In particular, this implied a 3-approximation for tree metrics under L_infty.  
-At FOCS'05, Ailon and Charikar showed that for any L_k, k>=1, we can get an O(((log n)(loglog n))^{1/k}) approximation for both tree and ultrametrics. Their paper was focused on the L_1 norm, and they wrote ``Determining whether an O(1) approximation can be obtained is a fascinating question".  
-At FOCS'21, Cohen-Addad, Das, Kipouridis, Parotsidis, and Thorup showed that indeed a constant factor is possible for L_1 for both tree and ultrametrics. This uses the special structure of L_1 in relation to hierarchies.  
+<br>We will review the basic results on the problem, including the most recent result from FOCS'21 https://arxiv.org/abs/2110.02807. They paint a varied landscape with big differences between different moments, and with some very nice open problems remaining.  
+<br>At STOC'93, Farach, Kannan, and Warnow proved that under L_infty, we can find the optimal ultrametric. Almost all other variants of the problem are APX-hard.  
+<br>At SODA'96, Agarwala, Bafna, Farach, Paterson, and Thorup showed that for any norm L_k, k>=1, if the best ultrametric can be A-approximated, then the best tree metric can be 3A-approximated. In particular, this implied a 3-approximation for tree metrics under L_infty.  
+<br>At FOCS'05, Ailon and Charikar showed that for any L_k, k>=1, we can get an O(((log n)(loglog n))^{1/k}) approximation for both tree and ultrametrics. Their paper was focused on the L_1 norm, and they wrote ``Determining whether an O(1) approximation can be obtained is a fascinating question".  
+<br>At FOCS'21, Cohen-Addad, Das, Kipouridis, Parotsidis, and Thorup showed that indeed a constant factor is possible for L_1 for both tree and ultrametrics. This uses the special structure of L_1 in relation to hierarchies.  
 The status of L_k is open for 1. 
-<br><br>Joint work with Vincent Cohen-Addad, Debarati Das, Evangelos Kipouridis and Nikos Parotsidis.
+<br><br>Joint work with Vincent Cohen-Addad, Debarati Das, Evangelos Kipouridis and Nikos Parotsidis. <hr>
+								
+                            Biography:<br><br>Mikkel Thorup (born 1965) has a D.Phil. from Oxford University from 1993. From 1993 to 1998 he was at the University of Copenhagen. From 1998 to 2013 he was at AT&T Labs-Research. Since 2013 he has been back as Professor at the University of Copenhagen. 
+								He is currently a VILLUM Investigator heading Center for Basic Algorithms Research Copenhagen (BARC). Mikkel Thorup is a Fellow of the ACM and of AT&T, and a Member of the Royal Danish Academy of Sciences and Letters. 
+								He is co-winner of the 2011 MAA Robbins Award in mathematics and winner of the 2015 Villum Kann Rasmussen Award for Technical and Scientific Research, which is Denmark's biggest individual prize for research. 
+								More recently he was co-winner of the 2021 AMS-MOS Fulkerson Prize and an ACM STOC 20-year test of time award. His main work is in algorithms and data structures, where he has worked on both upper and lower bounds. 
+								Recently one of his main focusses has been on hash functions unifying theory and practice. Mikkel prefers to seek his mathematical inspiration in nature, combining the quest with his hobbies of bird watching and mushroom picking.
 
                             </p>                                          
                             
