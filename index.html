@@ -147,7 +147,7 @@ Event in Taiwan!!
 					<header>
 						<h2>Theory Day Information</h2>
 						<p> 
-                        <strong>Date:</strong> 27 September, 2024 
+                        <strong>Date:</strong> 27 September (Friday), 2024 
                         <br>
                         <strong>Location:</strong> R124, EE Building II, National Taiwan University </p>
 					</header>
@@ -215,7 +215,7 @@ Event in Taiwan!!
 
 </tbody></table>
 
-					
+	
 
 
 
@@ -235,20 +235,22 @@ Event in Taiwan!!
 						<p> </p>
 					</header>
                     
+
                                 
                                 <!--div class="wrapper style4 first"-->  
 				<!--1號講者-->
                                 <article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/MikkelThorup_new.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/Shih-Han.jpg" alt="" /></span>
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h2> Shih-Han Hung (EE, NTU), Ya-Chun Liang (CSIE, NCKU), Shang-En Huang (CSIE, NTU) </h2>
+								<h2> Shih-Han Hung (EE, NTU) </h2>
 							</header>
-							<p> Title: Reconstructing the Tree of Life (Fitting Distances by Tree Metrics)<hr>
-                            Abstract:<br><br>We consider the numerical taxonomy problem of fitting an SxS distance matrix D with a tree metric T. For some k, we want to minimize the L_k norm of the errors, that is, 
+							<p> Title: Certified Randomness from Quantum Supremacy <hr>
+<!--                           
+ Abstract:<br><br>We consider the numerical taxonomy problem of fitting an SxS distance matrix D with a tree metric T. For some k, we want to minimize the L_k norm of the errors, that is, 
 							<br>Pick T so as to minimize (sum_{i,j in S} |D(i,j)-T(i,j)|^k)^{1/k} 
 
 							<br>This problem was raised in biology in the 1960s for k=1,2. The biological interpretation is that T represents a possible evolution behind the species in S matching some measured distances in D. Sometimes, it is required that T is an ultrametric, meaning that all species are at the same distance from the root.  
@@ -260,13 +262,18 @@ An Evolutionary tree induces a hierarchical classification of species and this i
 <br>At FOCS'21, Cohen-Addad, Das, Kipouridis, Parotsidis, and Thorup showed that indeed a constant factor is possible for L_1 for both tree and ultrametrics. This uses the special structure of L_1 in relation to hierarchies.  
 The status of L_k is open for 1. 
 <br><br>Joint work with Vincent Cohen-Addad, Debarati Das, Evangelos Kipouridis and Nikos Parotsidis. <hr>
+-->
 								
-                            Biography:<br><br>Mikkel Thorup (born 1965) has a D.Phil. from Oxford University from 1993. From 1993 to 1998 he was at the University of Copenhagen. From 1998 to 2013 he was at AT&T Labs-Research. Since 2013 he has been back as Professor at the University of Copenhagen. 
-								He is currently a VILLUM Investigator heading Center for Basic Algorithms Research Copenhagen (BARC). Mikkel Thorup is a Fellow of the ACM and of AT&T, and a Member of the Royal Danish Academy of Sciences and Letters. 
-								He is co-winner of the 2011 MAA Robbins Award in mathematics and winner of the 2015 Villum Kann Rasmussen Award for Technical and Scientific Research, which is Denmark's biggest individual prize for research. 
-								More recently he was co-winner of the 2021 AMS-MOS Fulkerson Prize and an ACM STOC 20-year test of time award. His main work is in algorithms and data structures, where he has worked on both upper and lower bounds. 
-								Recently one of his main focusses has been on hash functions unifying theory and practice. Mikkel prefers to seek his mathematical inspiration in nature, combining the quest with his hobbies of bird watching and mushroom picking.
+                            Biography:<br><br>
+Shih-Han Hung is an Assistant Professor in the Department of Electrical Engineering at National Taiwan University. 
+Previously, he held short-term postdoc positions at Academia Sinica and National Taiwan University. 
+Before that, he was a postdoc at the University of Texas at Austin, where he was hosted by Scott Aaronson. 
+He earned his Ph.D. degree in Computer Science at the University of Maryland, where he was advised by Andrew Childs. 
+He received a bachelor’s degree in Electrical Engineering and a master’s degree in Physics at National Taiwan University, 
+where he was advised by Shih-I Chu.
 
+Shih-Han is broadly interested in quantum information science, with recent focus on demonstrating quantum advantage, 
+verification of quantum devices, and their applications. He has been working on various problems in quantum query complexity, computational complexity theory, (post-)quantum cryptography, and quantum programming languages.
                             </p>                                          
                             
 						</div>
@@ -275,6 +282,83 @@ The status of L_k is open for 1.
                 				<hr>
 								
 
+<article class="container" id="top">
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<span class="image fit"><img src="images/Ya-Chun.jpg" alt="" /></span>
+						</div>
+						<div class="8u 12u(mobile)">
+							<header>
+								<h2> Ya-Chun Liang (CSIE, NCKU) </h2>
+							</header>
+							<p> Title: Scheduling with Obligatory Tests <hr>
+<!--                           
+ Abstract:<br><br>We consider the numerical taxonomy problem of fitting an SxS distance matrix D with a tree metric T. For some k, we want to minimize the L_k norm of the errors, that is, 
+							<br>Pick T so as to minimize (sum_{i,j in S} |D(i,j)-T(i,j)|^k)^{1/k} 
+
+							<br>This problem was raised in biology in the 1960s for k=1,2. The biological interpretation is that T represents a possible evolution behind the species in S matching some measured distances in D. Sometimes, it is required that T is an ultrametric, meaning that all species are at the same distance from the root.  
+An Evolutionary tree induces a hierarchical classification of species and this is not just tied to biology. Medicine, ecology and linguistics are just some of the fields where this concept appears, and it is even an integral part of machine learning and data science. Fundamentally, if we can approximate distances with a tree, then they are much easier to reason about: many questions that are NP-hard for general metrics can be answered in linear time on tree metrics. In fact, humans have appreciated hierarchical classifications at least since Plato and Aristotle (350 BC).  
+<br>We will review the basic results on the problem, including the most recent result from FOCS'21 https://arxiv.org/abs/2110.02807. They paint a varied landscape with big differences between different moments, and with some very nice open problems remaining.  
+<br>At STOC'93, Farach, Kannan, and Warnow proved that under L_infty, we can find the optimal ultrametric. Almost all other variants of the problem are APX-hard.  
+<br>At SODA'96, Agarwala, Bafna, Farach, Paterson, and Thorup showed that for any norm L_k, k>=1, if the best ultrametric can be A-approximated, then the best tree metric can be 3A-approximated. In particular, this implied a 3-approximation for tree metrics under L_infty.  
+<br>At FOCS'05, Ailon and Charikar showed that for any L_k, k>=1, we can get an O(((log n)(loglog n))^{1/k}) approximation for both tree and ultrametrics. Their paper was focused on the L_1 norm, and they wrote ``Determining whether an O(1) approximation can be obtained is a fascinating question".  
+<br>At FOCS'21, Cohen-Addad, Das, Kipouridis, Parotsidis, and Thorup showed that indeed a constant factor is possible for L_1 for both tree and ultrametrics. This uses the special structure of L_1 in relation to hierarchies.  
+The status of L_k is open for 1. 
+<br><br>Joint work with Vincent Cohen-Addad, Debarati Das, Evangelos Kipouridis and Nikos Parotsidis. <hr>
+-->
+								
+                            Biography:<br><br>
+Ya-Chun Liang received the M.S. degree in industrial engineering and engineering management from the National Tsing Hua University, Hsinchu, Taiwan, in 2019, 
+and the dual Ph.D. degree in electrical engineering and electronics with the University of Liverpool, Liverpool, U.K., 
+and industrial engineering and engineering management with the National Tsing Hua University. 
+Now she is an Assistant Professor in the Department of Computer Science and Information Engineering  
+at National Cheng Kung University. 
+She was a postdoc at the Data Science Institute, Columbia University, where she was hosted by Clifford Stein. 
+
+
+Her research interests include interdisciplinary topics over a variety of optimization problems. 
+Specifically, her research mainly focuses on designing online and dynamic algorithms for scheduling problems with real-world applications.
+                            </p>                                          
+                            
+						</div>
+					</div>
+				</article>
+                				<hr>
+
+<article class="container" id="top">
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<span class="image fit"><img src="images/Shang-En.jpg" alt="" /></span>
+						</div>
+						<div class="8u 12u(mobile)">
+							<header>
+								<h2> Shang-En Huang (CSIE, NTU) </h2>
+							</header>
+							<p> Title: Fast Algorithms for Cactus Representations <hr>
+<!--                           
+ Abstract:<br><br>We consider the numerical taxonomy problem of fitting an SxS distance matrix D with a tree metric T. For some k, we want to minimize the L_k norm of the errors, that is, 
+							<br>Pick T so as to minimize (sum_{i,j in S} |D(i,j)-T(i,j)|^k)^{1/k} 
+
+							<br>This problem was raised in biology in the 1960s for k=1,2. The biological interpretation is that T represents a possible evolution behind the species in S matching some measured distances in D. Sometimes, it is required that T is an ultrametric, meaning that all species are at the same distance from the root.  
+An Evolutionary tree induces a hierarchical classification of species and this is not just tied to biology. Medicine, ecology and linguistics are just some of the fields where this concept appears, and it is even an integral part of machine learning and data science. Fundamentally, if we can approximate distances with a tree, then they are much easier to reason about: many questions that are NP-hard for general metrics can be answered in linear time on tree metrics. In fact, humans have appreciated hierarchical classifications at least since Plato and Aristotle (350 BC).  
+<br>We will review the basic results on the problem, including the most recent result from FOCS'21 https://arxiv.org/abs/2110.02807. They paint a varied landscape with big differences between different moments, and with some very nice open problems remaining.  
+<br>At STOC'93, Farach, Kannan, and Warnow proved that under L_infty, we can find the optimal ultrametric. Almost all other variants of the problem are APX-hard.  
+<br>At SODA'96, Agarwala, Bafna, Farach, Paterson, and Thorup showed that for any norm L_k, k>=1, if the best ultrametric can be A-approximated, then the best tree metric can be 3A-approximated. In particular, this implied a 3-approximation for tree metrics under L_infty.  
+<br>At FOCS'05, Ailon and Charikar showed that for any L_k, k>=1, we can get an O(((log n)(loglog n))^{1/k}) approximation for both tree and ultrametrics. Their paper was focused on the L_1 norm, and they wrote ``Determining whether an O(1) approximation can be obtained is a fascinating question".  
+<br>At FOCS'21, Cohen-Addad, Das, Kipouridis, Parotsidis, and Thorup showed that indeed a constant factor is possible for L_1 for both tree and ultrametrics. This uses the special structure of L_1 in relation to hierarchies.  
+The status of L_k is open for 1. 
+<br><br>Joint work with Vincent Cohen-Addad, Debarati Das, Evangelos Kipouridis and Nikos Parotsidis. <hr>
+-->
+								
+                            Biography:<br><br>
+Shih-Han Hung is currently an assistant professor in the Department of Computer Science and Information Engineering (CSIE), National Taiwan University.
+
+                            </p>                                          
+                            
+						</div>
+					</div>
+				</article>
+                				<hr>
 
 
                 
